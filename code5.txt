@@ -1,0 +1,57 @@
+Receta suma (entero num1, entero num2)
+    Hacer
+        entero resultado -> num1 mas num2
+        regresar resultado
+    Fin
+
+Receta resta (entero num1, entero num2)
+    Hacer
+        entero resultado -> num1 menos num2
+        regresar resultado
+    Fin
+
+Receta multi (entero num1, entero num2)
+    Hacer
+        entero resultado -> num1 por num2
+        regresar resultado
+    Fin
+
+Receta divi (entero num1, entero num2)
+    Hacer
+        entero resultado -> num1 entre num2
+        regresar resultado
+    Fin
+
+Inicio()
+    entero numOption -> 0
+    Mientras(numOption != 5)
+    Hacer
+
+        Escribe(' 1-Suma\n 2-Resta\n 3-multiplicacion\n 4-Division\n 5-Salir\n')
+
+        Lee('Que desea hacer: \n >') en entero numOption
+
+        Lee('numero 1: ') en entero numero1
+        Lee('numero 2: ') en entero numero2
+
+        SI(numOption == 1)
+        Hacer
+            Escribe ('El resultado de la suma es: ', suma (numero1, numero2))
+        Fin
+
+        SI(numOption == 2)
+        Hacer
+            Escribe ('El resultado de la resta es: ', resta (numero1, numero2))
+        Fin
+
+        SI(numOption == 3)
+        Hacer
+            Escribe ('El resultado de la multiplicacion es: ', multi (numero1, numero2))
+        Fin
+
+        SI(numOption == 4)
+        Hacer
+            Escribe ('El resultado de la division es: ', divi (numero1, numero2))
+        Fin
+    Fin
+Terminar

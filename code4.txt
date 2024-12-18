@@ -1,0 +1,30 @@
+Receta procesarNumeros (entero numero)
+    Hacer
+        decimal modulo -> numero sobrante 2
+        SI (modulo == 0)
+            Hacer
+                Escribe ('El número ', numero, ' es par')
+            Fin
+        SINO
+            Hacer
+                Escribe ('El número ', numero, ' es impar')
+            Fin
+    Fin
+
+Receta suma (entero num1, entero num2)
+    Hacer
+        entero resultado -> num1 mas num2
+        regresar resultado
+    Fin
+
+Inicio ()
+    Repetir 5 veces
+        Hacer
+            procesarNumeros (actual)
+        Fin
+    
+    Lee('numero 1: ') en entero numero1
+    Lee('numero 2: ') en entero numero2
+
+    Escribe ('El resultado de la suma es: ', suma (numero1, numero2))
+Terminar

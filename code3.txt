@@ -1,0 +1,15 @@
+Inicio ()
+    entero contador -> 0
+    Repetir 5 veces
+        Hacer
+            Escribe ('Contador: ', contador)
+            contador -> contador mas 1
+        Fin
+
+    entero numero -> 10
+    Mientras (numero > 0)
+        Hacer
+            Escribe ('Número decreciendo: ', numero)
+            numero -> numero menos 1
+        Fin
+Terminar

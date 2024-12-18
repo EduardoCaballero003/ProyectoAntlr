@@ -1,0 +1,14 @@
+Inicio ()
+    Lee ('Introduce el primer número: ') en decimal numero1
+    Lee ('Introduce el segundo número: ') en decimal numero2
+    
+    decimal suma -> numero1 mas numero2
+    decimal resta -> numero1 menos numero2
+    decimal multiplicacion -> numero1 por numero2
+    decimal division -> numero1 entre numero2
+    
+    Escribe ('La suma es: ', suma)
+    Escribe ('La resta es: ', resta)
+    Escribe ('La multiplicación es: ', multiplicacion)
+    Escribe ('La división es: ', division)
+Terminar

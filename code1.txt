@@ -1,0 +1,21 @@
+Inicio ()
+    Arreglo entero numeros -> [1, 2, 3, 4, 5]
+    
+    Escribe ('El primer número es: ', numeros[0])
+    
+    numeros.Agregar(6)
+    Escribe ('Los números después de agregar 6: ', numeros)
+    
+    numeros.Elimina(3)
+    Escribe ('Los números después de eliminar el 3: ', numeros)
+    
+    numeros.Elimina-en(0)
+    Escribe ('Los números después de eliminar el primero: ', numeros)
+
+    numeros.Agregar-en(0,6)
+    Escribe ('Los números después de insertar el primero: ', numeros)
+
+    entero ultimoLista -> numeros.Ultimo()
+    Escribe('Ultimo elemento de la lista: ', ultimoLista)
+Terminar
+
